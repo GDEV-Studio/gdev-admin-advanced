@@ -2,11 +2,11 @@
   <img src="https://i.postimg.cc/MHrKJ0ct/Copie-de-Location.png" alt="Ban System Banner" width="100%">
 </p>
 
-<h1 align="center">🛡️ Système de Bannissement Modulaire</h1>
+<h1 align="center">Système Bannissement Modulaire GDEV Studio</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/FiveM-Compatible-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FiveM-ESX-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-2.0.1-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge">
 </p>
