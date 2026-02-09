@@ -1,0 +1,59 @@
+# ================================
+# CONFIGURATION SERVER.CFG
+# Pour le système de bannissement
+# ================================
+
+# Démarrer la ressource
+ensure ban_system
+
+# ================================
+# PERMISSIONS ACE - GROUPE ADMIN
+# ================================
+add_ace group.admin command.ban allow
+add_ace group.admin command.tempban allow
+add_ace group.admin command.unban allow
+add_ace group.admin command.banlist allow
+add_ace group.admin command.banhistory allow
+add_ace group.admin command.banstats allow
+add_ace group.admin command.banlogs allow
+
+# ================================
+# PERMISSIONS ACE - GROUPE MODERATOR
+# (Optionnel - permissions limitées)
+# ================================
+add_ace group.moderator command.tempban allow
+add_ace group.moderator command.banlist allow
+add_ace group.moderator command.banhistory allow
+add_ace group.moderator command.banlogs allow
+
+# ================================
+# PERMISSIONS ACE - GROUPE SUPPORT
+# (Optionnel - lecture seule)
+# ================================
+add_ace group.support command.banlist allow
+add_ace group.support command.banhistory allow
+add_ace group.support command.banlogs allow
+
+# ================================
+# AJOUTER DES UTILISATEURS AUX GROUPES
+# ================================
+# Remplacez "license:xxx" par le vrai identifier
+
+# Admins (tous les droits)
+add_principal identifier.license:xxx group.admin
+
+# Modérateurs (pas de ban permanent)
+add_principal identifier.license:yyy group.moderator
+
+# Support (lecture seule)
+add_principal identifier.license:zzz group.support
+
+# ================================
+# NOTES
+# ================================
+# 1. Vérifiez que oxmysql est bien installé et configuré
+# 2. Exécutez le fichier install.sql avant de démarrer
+# 3. Configurez config/config.lua selon vos besoins
+# 4. Les identifiers peuvent être: license, steam, discord, xbl, live
+# 5. Pour obtenir un identifier: connectez-vous au serveur puis tapez
+#    dans la console F8: print(GetPlayerIdentifiers(GetPlayerServerId(PlayerId()))[1])

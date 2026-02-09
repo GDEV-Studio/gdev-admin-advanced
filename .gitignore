@@ -1,0 +1,34 @@
+# Fichiers de configuration personnels
+config/config.lua.local
+*.local
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Database dumps
+*.sql.gz
+*.sql.backup
+dump.sql
