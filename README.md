@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://i.postimg.cc/MHrKJ0ct/Copie-de-Location.png" alt="Ban System Banner" width="100%">
-</p>
-
 <h1 align="center">GDEV Admin</h1>
 
 <p align="center">
