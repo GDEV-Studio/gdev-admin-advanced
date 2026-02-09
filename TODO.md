@@ -24,34 +24,6 @@ Liste des tâches à accomplir pour les prochaines versions.
   - [ ] Commande `/updateban [identifier] [nouvelle raison]` - Modifier la raison
   - [ ] Support des bans offline (par identifier direct)
 
-## ⚡ Priorité Moyenne
-
-### Version 2.2.0
-- [ ] **Interface Web**
-  - [ ] Dashboard d'administration
-  - [ ] Liste des bans avec filtres
-  - [ ] Graphiques et statistiques
-  - [ ] Gestion des appeals
-  - [ ] Export CSV/JSON
-  
-- [ ] **Système de Notes**
-  - [ ] Table SQL `player_notes`
-  - [ ] Commande `/addnote [id] [note]`
-  - [ ] Commande `/viewnotes [identifier]`
-  - [ ] Catégories de notes (warning, info, positif)
-  
-- [ ] **Système de Warnings**
-  - [ ] Table SQL `player_warnings`
-  - [ ] Commande `/warn [id] [raison]`
-  - [ ] Auto-ban après X warnings
-  - [ ] Expiration des warnings
-
-- [ ] **Amélioration des Logs**
-  - [ ] Export des logs en JSON
-  - [ ] Recherche avancée
-  - [ ] Graphiques de statistiques
-  - [ ] Alertes automatiques
-
 ## 🎯 Fonctionnalités Additionnelles
 
 ### Version 2.3.0
@@ -155,9 +127,6 @@ Liste des tâches à accomplir pour les prochaines versions.
 
 **Version 2.0.0:** ✅ Complétée  
 **Version 2.1.0:** ⏳ En cours (0%)  
-**Version 2.2.0:** 📋 Planifiée  
-**Version 2.3.0:** 📋 Planifiée  
-**Version 3.0.0:** 💭 En réflexion
 
 ---
 
