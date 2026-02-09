@@ -4,7 +4,8 @@ lua54 'yes'
 
 author 'Yusu_sauvage'
 description 'Système de bannissement modulaire avancé avec logs détaillés, historique complet et gestion multi-identifiants. Supporte les bans permanents/temporaires, webhooks Discord et exports API'
-version '2.0.0'
+info 'Pour toutes informations & configurations, consultez le dossier "docs" ou contactez-moi sur Discord Yusu_sauvage'
+version '2.0.1'
 
 -- Configuration
 shared_scripts {

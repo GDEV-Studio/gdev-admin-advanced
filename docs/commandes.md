@@ -27,3 +27,4 @@ Affiche les statistiques d'un joueur
 
 /banlogs [page] [action]
 Affiche les logs (actions: BAN, TEMPBAN, UNBAN, etc.)
+```
