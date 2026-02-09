@@ -2,7 +2,7 @@
   <img src="https://i.postimg.cc/MHrKJ0ct/Copie-de-Location.png" alt="Ban System Banner" width="100%">
 </p>
 
-<h1 align="center">Système Bannissement Modulaire GDEV Studio</h1>
+<h1 align="center">GDEV Admin</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/FiveM-ESX-green?style=for-the-badge">
