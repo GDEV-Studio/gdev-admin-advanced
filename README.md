@@ -5,10 +5,10 @@
 <h1 align="center">GDEV Admin</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/FiveM-ESX-#00bc61?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Version-2.0.1-#00bc61?style=for-the-badge">
-  <img src="https://img.shields.io/badge/License-MIT-#00bc61?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Stable-#00bc61?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FiveM-ESX-00bc61?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-2.0.1-00bc61?style=for-the-badge">
+  <img src="https://img.shields.io/badge/License-MIT-00bc61?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Stable-00bc61?style=for-the-badge">
 </p>
 
 <p align="center">
